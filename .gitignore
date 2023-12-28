@@ -1,12 +1,11 @@
-typescript/*/two-fer.ts
+./typescript/*/yarn/*
 *.pnp.*
-**/.yarn
+**yarn
 # !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
 # Ignore general files and directories
 .DS_Store
 .idea/
@@ -19,7 +18,8 @@ typescript/*/two-fer.ts
 
 # Ignore dependencies
 node_modules/
-.exercism
+**/yarn.lock
+**/**/yarn.lock
 
 # Ignore editor-specific files
 *.swp
