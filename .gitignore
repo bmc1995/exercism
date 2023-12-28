@@ -1,6 +1,7 @@
-.pnp.*
-.yarn/*
-!.yarn/patches
+typescript/*/two-fer.ts
+*.pnp.*
+**/.yarn
+# !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
@@ -17,8 +18,8 @@
 /dist/
 
 # Ignore dependencies
-/node_modules/
-/yarn.lock
+node_modules/
+.exercism
 
 # Ignore editor-specific files
 *.swp
