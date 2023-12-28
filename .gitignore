@@ -1,3 +1,11 @@
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Ignore general files and directories
 .DS_Store
 .idea/
@@ -11,12 +19,6 @@
 # Ignore dependencies
 /node_modules/
 /yarn.lock
-
-# Ignore solution files
-/solutions/
-
-# Ignore generated files
-/generated/
 
 # Ignore editor-specific files
 *.swp
