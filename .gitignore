@@ -1,0 +1,27 @@
+# Ignore general files and directories
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore build artifacts
+/bin/
+/build/
+/dist/
+
+# Ignore dependencies
+/node_modules/
+/yarn.lock
+
+# Ignore solution files
+/solutions/
+
+# Ignore generated files
+/generated/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.vs
