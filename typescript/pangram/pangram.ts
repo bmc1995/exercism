@@ -1,3 +1,3 @@
-export function isPangram() {
-  throw new Error('Remove this statement and implement this function')
+export function isPangram(str: string) {
+  return new Set(str.toLowerCase().replace(/[^a-z]/g, "")).size === 26;
 }
